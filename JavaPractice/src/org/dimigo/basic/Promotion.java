@@ -11,6 +11,6 @@ public class Promotion {
 		System.out.printf("점포 내 직원 수 : %d명\n", clerk);
 		System.out.println("점포 수 : " + String.format("%,d" ,store) + "개\n");
 		long total = money*clerk*12*store;
-		System.out.println("연간 인건비 : " + String.format("%,d", total) + "원");
+		System.out.println("연간 인건비 : " + String.format("%,d", total) + "원"); 
 	}
 }
