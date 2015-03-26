@@ -5,7 +5,7 @@ public class Condition {
 		String car = "고속버스";
 		int d = 10;
 		int admission = 0;
-		int add = 0;
+		int add = 0; 
 		int price = 0;
 		switch(car) {
 		case "고속버스":
