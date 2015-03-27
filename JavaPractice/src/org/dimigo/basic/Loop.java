@@ -6,7 +6,7 @@ public class Loop {
 			for(int j=1;j<=10;j++) {
 				if(j==i) System.out.printf("*");
 				else System.out.printf("%d", j);
-			}
+			} 
 			System.out.println();
 		}
 	}
