@@ -25,8 +25,10 @@ public class MelonChart {
 		printList(list);
 	}
 	public static void printList(List<Music> list) {
+		int number=1;
 		for(Music music : list) {
-			System.out.println(music);
+			System.out.println(number + "." + music);
+			number ++;
 		}
 		System.out.println();
 	}
