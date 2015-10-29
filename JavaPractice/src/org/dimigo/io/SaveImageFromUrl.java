@@ -18,7 +18,7 @@ public class SaveImageFromUrl {
 				int result;
 				
 				byte[] buf = new byte[100];
-				
+					
 				while((result = is.read(buf)) != -1) {
 					os.write(buf, 0, result);
 				}

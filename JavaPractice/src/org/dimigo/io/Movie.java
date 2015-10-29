@@ -28,7 +28,7 @@ public class Movie {
 	private String userRating;
 	/**
 	 * @return the titlek
-	 */
+	 */	
 	public String getTitle() {
 		return title;
 	}

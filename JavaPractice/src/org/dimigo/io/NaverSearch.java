@@ -91,8 +91,8 @@ public class NaverSearch {
 	         * 3. 스타워즈: 깨어난 포스 - [해리슨 포드, 마크 해밀, 캐리 피셔, .. ]
 	         ********************************************************/
 	        
-	        
-	        
+	        	
+	        	
 	        
 	        // files/movies.txt 파일에 write하기
 	        try(Writer writer = new FileWriter("files/movies.txt" )) {
