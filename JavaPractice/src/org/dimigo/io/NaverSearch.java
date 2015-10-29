@@ -99,6 +99,7 @@ public class NaverSearch {
 	        	 for(int i=0;i<movieList.size();i++) {
 	 	        	Movie movie = movieList.get(i);
 	 	        	writer.write( i+1 +  ". "+movie.getTitle() + " - " + movie.getActors() + "\n");
+	 	        	System.out.println(i+1 +  ". "+movie.getTitle() + " - " + movie.getActors() + "\n");
 	 	        }
 	 	        
 	 	        writer.flush();
