@@ -27,7 +27,7 @@ public class Movie {
 	private List<String> actors;
 	private String userRating;
 	/**
-	 * @return the title
+	 * @return the titlek
 	 */
 	public String getTitle() {
 		return title;

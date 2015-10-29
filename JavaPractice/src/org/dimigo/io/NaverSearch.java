@@ -59,7 +59,7 @@ public class NaverSearch {
 	    	HttpGet httpget = new HttpGet(sb.toString());
 	        System.out.println("Executing request " + httpget.getRequestLine());
 
-	        // Create a custom response handler
+	        // Create a custom response handlerkjk
 	        ResponseHandler<String> responseHandler = new ResponseHandler<String>() {
 
 	            @Override

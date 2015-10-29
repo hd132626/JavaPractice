@@ -69,7 +69,7 @@ public class NaverMovieXMLParser {
 				movie.setDirector(tagList.item(5).getTextContent());
 				String actors = tagList.item(6).getTextContent();
 				
-				// '|'를 기준으로 split하기
+				// '|'를 기준으로 split하기k
 				String[] actorArr = actors.split("\\|");
 				List<String> actorList = new ArrayList<String>(actorArr.length);
 				
